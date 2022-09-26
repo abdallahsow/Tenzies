@@ -48,6 +48,9 @@
   height: 35px;
   padding: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dice {
@@ -55,4 +58,11 @@
   line-height: 24px;
   text-align: center;
   color: #2b283a;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  align-items: center;
 }
