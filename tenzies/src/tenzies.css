@@ -22,7 +22,6 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-family: "Karla";
 }
@@ -39,4 +38,21 @@
   color: #4a4e74;
   text-align: center;
   padding-bottom: 25px;
+}
+
+.dice-box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dice {
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b283a;
 }

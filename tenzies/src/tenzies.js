@@ -1,5 +1,6 @@
 import "./tenzies.css";
 import Header from "./components/Header";
+import Dice from "./components/Dice";
 
 const App = function () {
   return (
@@ -7,6 +8,7 @@ const App = function () {
       <div className="container">
         <div className="game">
           <Header />
+          <Dice />
         </div>
       </div>
     </main>
