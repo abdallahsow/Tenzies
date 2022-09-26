@@ -8,7 +8,8 @@ const App = function () {
       <div className="container">
         <div className="game">
           <Header />
-          <Dice />
+                  <Dice />
+                  <button className="roll-dice">Roll</button>
         </div>
       </div>
     </main>
