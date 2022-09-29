@@ -1,6 +1,6 @@
-import "./tenzies.css";
 import Header from "./components/Header";
 import Dice from "./components/Dice";
+import "./App.css";
 
 const App = function () {
   return (
