@@ -1,4 +1,4 @@
-export default function Header() {
+const Header = () => {
   return (
     <>
       <h1 className="game-title">Tenzies</h1>
@@ -9,3 +9,5 @@ export default function Header() {
     </>
   );
 }
+
+export default Header;
